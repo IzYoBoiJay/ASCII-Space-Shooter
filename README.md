@@ -15,7 +15,7 @@ Afterwards, play via:
 
 Survive as many levels as you can and achieve a high score! This could be you: '>' (as a matter of fact, it is you in-game)
 
-[HOW TO PLAY]:
+HOW TO PLAY:
 Move - Arrow Keys
 Shoot - Space
 End Game - Q
