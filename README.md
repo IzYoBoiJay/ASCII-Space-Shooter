@@ -1,7 +1,7 @@
 # ASCII-Space-Shooter
 A C++ ncurses.h space shooter game
 
-***INSTALLATION**
+[INSTALLATION]
 Only available in a UX based console platform.
 
 Have all *.cpp and *.h files from folder Space_Shooter, cd to the directory, and issue the following command in bash:
@@ -11,11 +11,11 @@ Afterwards, play via:
 ./a.out
 
 
-***Welcome to ASCII Space Shooter Game!***
+[Welcome to ASCII Space Shooter Game!]
 
 Survive as many levels as you can and achieve a high score! This could be you: '>' (as a matter of fact, it is you in-game)
 
-HOW TO PLAY:
+[HOW TO PLAY]:
 Move - Arrow Keys
 Shoot - Space
 End Game - Q
