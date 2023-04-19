@@ -57,6 +57,9 @@ int main(int argc, char **argv) {
     //Seed for random number generator
     srand(time(NULL));
 
+    //Do not wait and control for input -> Make wgetch() a non-blocking call
+    nodelay(spaceShooter.get_window(), true);
+
     //Main Game Engine Loop
     while (spaceShooter.isRunning() == true) {
 
@@ -65,6 +68,9 @@ int main(int argc, char **argv) {
         spaceShooter.gCycleUpdate();
 
         spaceShooter.redraw();
+
+        //100ms Delay to process input
+        wtimeout(spaceShooter.get_window(), 100);
 
     }
 

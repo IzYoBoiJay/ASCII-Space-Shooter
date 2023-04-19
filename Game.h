@@ -62,6 +62,11 @@ public:
         return currLevel;
 
     }
+    WINDOW* get_window() {
+
+        return gameWindow;
+
+    }
 
     //Controller Functions
     void level();

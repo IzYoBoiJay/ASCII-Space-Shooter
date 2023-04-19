@@ -5,7 +5,7 @@ A C++ ncurses.h space shooter game
 Only available in a UX based console platform.
 
 Have all *.cpp and *.h files from folder Space_Shooter, cd to the directory, and issue the following command in bash:
-g++ -lncurses main.cpp Game.cpp Entity.h Item.cpp Player.cpp Enemy.cpp LeaderboardList.cpp LeaderboardIO.cpp
+g++ -std=c++11 -lncurses main.cpp Game.cpp Entity.h Item.cpp Player.cpp Enemy.cpp LeaderboardList.cpp LeaderboardIO.cpp
 
 Afterwards, play via:
 ./a.out
