@@ -1,13 +1,13 @@
 # ASCII-Space-Shooter
 
-A C++ ncurses.h space shooter game
+A C++ `ncurses.h` space shooter game
 
 [INSTALLATION]
 Only available in a UX based console platform.
 
 ## How to compile and run
 
-Have all *.cpp and *.h files from folder Space_Shooter, cd to the directory, and issue the following command in bash:
+Have all `*.cpp` and `*.h` files from folder Space_Shooter, cd to the directory, and issue the following command in bash:
 ```bash
 cd ASCII-Space-Shooter
 
